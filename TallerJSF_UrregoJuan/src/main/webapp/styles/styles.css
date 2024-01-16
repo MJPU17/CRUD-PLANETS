@@ -1,0 +1,52 @@
+body {
+	background: #757F9A;
+	background: -webkit-linear-gradient(to left, #D7DDE8, #757F9A);
+	background: linear-gradient(to left, #D7DDE8, #757F9A);
+
+}
+
+.card-custom {
+	background: #757F9A !important;
+	background: -webkit-linear-gradient(to left, #D7DDE8, #757F9A) !important;
+	background: linear-gradient(to left, #D7DDE8, #757F9A) !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+table * {
+	text-align: center !important;
+	vertical-align: middle !important;
+}
+
+.table-custom label {
+	color: white !important;
+}
+
+.popup {
+	width: 525px;
+	background: #fff;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popup img {
+	width: 100px;
+	margin-top: -20%;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.no-click {
+    pointer-events: none !important;
+}
